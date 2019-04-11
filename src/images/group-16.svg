@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="347.612" height="207.584" viewBox="0 0 347.612 207.584">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="60.258" height="9.553" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_16" data-name="Group 16" transform="translate(-724 -1271)">
+    <rect id="Rectangle_34" data-name="Rectangle 34" width="347.585" height="206.494" rx="27" transform="translate(724 1271)" fill="#fff"/>
+    <path id="Rectangle_36" data-name="Rectangle 36" d="M27,0H320.585a27,27,0,0,1,27,27v4.6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(724 1272.47)" fill="#ebe9e9"/>
+    <path id="Path_14" data-name="Path 14" d="M7437.5,1490s140.8-16.042,224.119-59.671,109.164-114.844,109.164-114.844V1490Z" transform="translate(-6699.17 -11.416)" fill="#ececec"/>
+    <path id="Rectangle_44" data-name="Rectangle 44" d="M27,0H320.585a27,27,0,0,1,27,27v4.6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(724 1271.735)" fill="#518ca7"/>
+    <path id="Rectangle_43" data-name="Rectangle 43" d="M27,0h1.659a0,0,0,0,1,0,0V31.6a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(724 1271.735)" fill="#3d6b80"/>
+    <rect id="Rectangle_54" data-name="Rectangle 54" width="213.107" height="95.531" rx="10" transform="translate(790.872 1318.766)" fill="#c3ddf4" opacity="0.73"/>
+    <g id="Repeat_Grid_8" data-name="Repeat Grid 8" transform="translate(1002.509 1284.962)" clip-path="url(#clip-path)">
+      <g transform="translate(-565 -1290)">
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="6.5" cy="6.5" r="6.5" transform="translate(565 1290)" fill="#fff"/>
+      </g>
+      <g transform="translate(-532 -1290)">
+        <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="6.5" cy="6.5" r="6.5" transform="translate(565 1290)" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Rectangle_58" data-name="Rectangle 58" d="M8.083,0h0a0,0,0,0,1,0,0V95.531a0,0,0,0,1,0,0h0A8.083,8.083,0,0,1,0,87.448V8.083A8.083,8.083,0,0,1,8.083,0Z" transform="translate(790.872 1318.766)" fill="#a7bed2"/>
+    <rect id="Rectangle_59" data-name="Rectangle 59" width="191.062" height="4.409" transform="translate(801.894 1442.956)" fill="#fffcfc"/>
+    <rect id="Rectangle_60" data-name="Rectangle 60" width="77.894" height="2.939" transform="translate(802.629 1443.69)" fill="#65f373"/>
+    <rect id="Rectangle_61" data-name="Rectangle 61" width="2.205" height="2.939" transform="translate(802.629 1443.69)" fill="#4bce58"/>
+  </g>
+</svg>

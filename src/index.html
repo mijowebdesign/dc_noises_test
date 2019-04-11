@@ -6,8 +6,220 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Webpack demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        function openNav() {
+            /*document.getElementById("mySidenav").style.width = "14vw";*/
+            document.getElementById("mySidenav").classList.add("menu-width");
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            setTimeout(function () {
+                document.body.addEventListener("click",closeNav);
+            },100)
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").classList.remove("menu-width");
+            document.body.style.backgroundColor = "white";
+            document.body.removeEventListener("click",closeNav);
+
+        }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
 </head>
 <body>
+<div class="wrapper">
+    <header>
+        <div class="wrapper_main">
 
+            <div class="wrapper_header">
+                <!--<h1>noises</h1>-->
+                <a href="#" ><img class="logo" src="images/logo.svg" alt="noises logo"></a>
+                <img id="menu-img" src="images/menu.svg" alt="noises menu" onClick="openNav()">
+            </div>
+
+        </div>
+    </header>
+    <nav id="mySidenav" class="sidenav">
+        <h4>Menu</h4>
+        <ul>
+            <li ><a href="#title1">Title 1</a></li>
+            <li><a href="#title2">Title 2</a></li>
+            <li><a href="#title3">Title 3</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper_main">
+    <div class="intro">
+
+        <div class="no-color">
+            <div class="wrapper_no-color">
+                <h3>Lorem ipsum dolor sit ame <span class="pink-color">.<span> </h3>
+                <p>Sed ut perspiciatis unde omnis</p>
+            </div>
+
+        </div>
+
+        <div class=" color-block pink">
+                <p>Ulemecko labris</p>
+                <h3 class="color-header">Lorem ipsum sit</h3>
+                <h3 class="undline">Eleifend</h3>
+        </div>
+
+        <div class="color-block  ultra-marin-blue">
+                <p>Ulemecko labris</p>
+                <h3 class="color-header">Lorem ipsum sit</h3>
+                <h3 class="undline">Eleifend</h3>
+        </div>
+        <div class="color-block  purple">
+                <p>Ulemecko labris</p>
+                <h3 class="color-header">Lorem ipsum sit</h3>
+                <h3 class="undline">Eleifend</h3>
+        </div>
+        <div class="color-block  yellow">
+                <p>Ulemecko labris</p>
+                <h3 class="color-header">Lorem ipsum sit</h3>
+                <h3 class="undline">Eleifend</h3>
+        </div>
+        <div class="no-color-end">
+            <h3>Laoret</h3>
+        </div>
+    </div>
+    </div>
+
+    <div class="devider1"></div>
+
+    <div class="wrapper_main">
+    <article id="title1" class="title1">
+        <h2>Tittle 1</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error
+            sit voluptatem accusantium doloremque
+            laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi
+            architecto beatae vitae dicta sunt explicabo.
+            Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia
+            consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt. Neque porro
+            quisquam est, qui dolorem ipsum quia dolor sit
+            amet, consectetur, adipisci velit, sed quia non
+            numquam eius modi tempora incidunt ut labore
+            et dolore magnam aliquam quaerat voluptatem.</p>
+        <img src="images/web-maintenance.svg" alt="title1">
+    </article>
+    </div>
+    <div class="devider2"></div>
+
+    <section id="title2" class="title2">
+        <div class="title2-bgd"></div>
+
+        <h2>Title 2</h2>
+        <div class="wrapper_articles">
+
+        <article class="first" >
+            <img src="images/group-15.svg" alt="group15">
+            <h3>Vehicula iaculis</h3>
+            <div class="dotted-line"></div>
+            <p>Eu posse ponderum vim, pri primis cetero
+                id. Propriae facilisis te nam, modus altera
+                gloriatur ex est. Nonumy docendi pri ad,
+                utinam eleifend vim cu. Qui at aeterno
+                facilis. Enim singulis an eos. Ad mei nisl
+                admodum, mei at veri labitur numquam.</p>
+        </article>
+        <article>
+            <img src="images/group-16.svg" alt="group16">
+            <h3>Velit felis</h3>
+            <div class="dotted-line"></div>
+            <p>Lorem ipsum dolor sit
+                amet,consectetur adipiscing
+                elit, sed do eiusmod tempor
+                incididunt ut labore et dolore
+                magna aliqua.</p>
+        </article>
+        <article>
+            <img src="images/group-17.svg" alt="group17">
+            <h3>Criss fingilla</h3>
+            <div class="dotted-line"></div>
+            <p>Eu posse ponderum vim, pri primis cetero
+                id. Propriae facilisis te nam, modus altera
+                gloriatur ex est. Nonumy docendi pri ad,
+                utinam eleifend vim cu. Qui at aeterno
+                facilis. Enim singulis an eos. Ad mei nisl
+                admodum, mei at veri labitur numquam.</p>
+        </article>
+        </div>
+    </section>
+
+    <div class="wrapper_main">
+    <article id="title3" class="title3">
+        <h2>Nullam pellentesque purus eu neque</h2>
+        <img src="images/group-18.svg" alt="group18">
+        <button>Tabernam</button>
+    </article>
+    </div>
+
+
+<footer>
+        <p class="question">Have a question?</p>
+
+    <div class="contact wrapper-contact-1">
+        <p>Contactu:</p>
+        <p>Adress:</p>
+        <p>9003 Schoolhouse Court</p>
+        <p>Astoria, NY 11102</p>
+        <p>589 Delawere Avenue</p>
+        <p>Redford, MI 48239</p>
+    </div>
+    <div class="wrapper-contact-2">
+        <p>De nobis</p>
+        <p>Vitae</p>
+        <p>Tabernam/p>
+        <p>Blog</p>
+        <p>Consilio</p>
+    </div>
+    <div class=" contact wrapper-contact-3">
+        <p>Muture nutrias</p>
+        <textarea rows=10 cols="40">
+
+        </textarea>
+        <button>
+            Submittere
+        </button>
+    </div>
+
+
+</footer>
+
+
+
+</div>
 </body>
 </html>

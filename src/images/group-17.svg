@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="344.771" height="205.1" viewBox="0 0 344.771 205.1">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="156.371" height="43.638" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="59.639" height="9.455" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_17" data-name="Group 17" transform="translate(-1258 -1272)">
+    <rect id="Rectangle_34" data-name="Rectangle 34" width="344.016" height="204.373" rx="27" transform="translate(1258.727 1272.727)" fill="#fff"/>
+    <path id="Rectangle_37" data-name="Rectangle 37" d="M27,0H317.016a27,27,0,0,1,27,27v4.274a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(1258 1272.727)" fill="#ebe9e9"/>
+    <rect id="Rectangle_46" data-name="Rectangle 46" width="45.82" height="42.184" rx="10" transform="translate(1325.639 1318.548)" fill="#e26693"/>
+    <rect id="Rectangle_48" data-name="Rectangle 48" width="45.82" height="42.184" rx="10" transform="translate(1325.639 1369.459)" fill="#ffaf10"/>
+    <path id="Path_12" data-name="Path 12" d="M7437.5,1488.208s139.353-15.878,221.817-59.059,108.043-113.665,108.043-113.665v172.724Z" transform="translate(-6164.59 -11.483)" fill="#ececec"/>
+    <path id="Path_13" data-name="Path 13" d="M7437.5,1488.208s139.353-15.878,221.817-59.059,108.043-113.665,108.043-113.665v172.724Z" transform="translate(-6164.59 -11.483)" fill="#ececec"/>
+    <path id="Rectangle_42" data-name="Rectangle 42" d="M27,0H317.016a27,27,0,0,1,27,27v4.274a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(1258.727 1272)" fill="#518ca7"/>
+    <path id="Rectangle_45" data-name="Rectangle 45" d="M27,0h1.365a0,0,0,0,1,0,0V31.274a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V27A27,27,0,0,1,27,0Z" transform="translate(1258.727 1272)" fill="#3d6b80"/>
+    <rect id="Rectangle_49" data-name="Rectangle 49" width="45.82" height="42.184" rx="10" transform="translate(1325.639 1420.37)" fill="#37c47a"/>
+    <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(1378.733 1318.548)" clip-path="url(#clip-path)">
+      <g transform="translate(-889 -1336)">
+        <rect id="Rectangle_50" data-name="Rectangle 50" width="215" height="7" transform="translate(889 1336)" fill="#f1efef"/>
+      </g>
+      <g transform="translate(-889 -1323)">
+        <rect id="Rectangle_50-2" data-name="Rectangle 50" width="215" height="7" transform="translate(889 1336)" fill="#f1efef"/>
+      </g>
+      <g transform="translate(-889 -1310)">
+        <rect id="Rectangle_50-3" data-name="Rectangle 50" width="215" height="7" transform="translate(889 1336)" fill="#f1efef"/>
+      </g>
+      <g transform="translate(-889 -1297)">
+        <rect id="Rectangle_50-4" data-name="Rectangle 50" width="215" height="7" transform="translate(889 1336)" fill="#f1efef"/>
+      </g>
+    </g>
+    <g id="Repeat_Grid_4" data-name="Repeat Grid 4" transform="translate(1378.733 1418.916)" clip-path="url(#clip-path)">
+      <g transform="translate(-889 -1336)">
+        <g id="Rectangle_50-5" data-name="Rectangle 50" transform="translate(889 1336)" fill="#d4d0d0" stroke="#c9c7c7" stroke-width="1">
+          <rect width="215" height="7" stroke="none"/>
+          <rect x="0.5" y="0.5" width="214" height="6" fill="none"/>
+        </g>
+      </g>
+      <g transform="translate(-889 -1323)">
+        <g id="Rectangle_50-6" data-name="Rectangle 50" transform="translate(889 1336)" fill="#d4d0d0" stroke="#c9c7c7" stroke-width="1">
+          <rect width="215" height="7" stroke="none"/>
+          <rect x="0.5" y="0.5" width="214" height="6" fill="none"/>
+        </g>
+      </g>
+      <g transform="translate(-889 -1310)">
+        <g id="Rectangle_50-7" data-name="Rectangle 50" transform="translate(889 1336)" fill="#d4d0d0" stroke="#c9c7c7" stroke-width="1">
+          <rect width="215" height="7" stroke="none"/>
+          <rect x="0.5" y="0.5" width="214" height="6" fill="none"/>
+        </g>
+      </g>
+      <g transform="translate(-889 -1297)">
+        <g id="Rectangle_50-8" data-name="Rectangle 50" transform="translate(889 1336)" fill="#d4d0d0" stroke="#c9c7c7" stroke-width="1">
+          <rect width="215" height="7" stroke="none"/>
+          <rect x="0.5" y="0.5" width="214" height="6" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <path id="Rectangle_51" data-name="Rectangle 51" d="M8,0H8A0,0,0,0,1,8,0V42.184a0,0,0,0,1,0,0H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" transform="translate(1325.639 1318.548)" fill="#b94e75"/>
+    <path id="Rectangle_52" data-name="Rectangle 52" d="M8,0H8A0,0,0,0,1,8,0V42.184a0,0,0,0,1,0,0H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" transform="translate(1325.639 1369.459)" fill="#d69512"/>
+    <path id="Rectangle_53" data-name="Rectangle 53" d="M8,0H8A0,0,0,0,1,8,0V42.184a0,0,0,0,1,0,0H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" transform="translate(1325.639 1420.37)" fill="#2a925b"/>
+    <g id="Repeat_Grid_7" data-name="Repeat Grid 7" transform="translate(1535.104 1285.091)" clip-path="url(#clip-path-3)">
+      <g transform="translate(-565 -1290)">
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="6.5" cy="6.5" r="6.5" transform="translate(565 1290)" fill="#fff"/>
+      </g>
+      <g transform="translate(-532 -1290)">
+        <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="6.5" cy="6.5" r="6.5" transform="translate(565 1290)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="A" transform="translate(1506.556 1395.276)" fill="#fff" font-size="51" font-family="NunitoSans-ExtraLight, Nunito Sans" font-weight="200" opacity="0.77"><tspan x="-18.207" y="0">A</tspan></text>
+  </g>
+</svg>
