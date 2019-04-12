@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,800,900');
+
+
 @import '_variables.scss';
 
 
@@ -25,7 +27,7 @@ body {
     }
 
   @media screen and (min-width: $break-large) {
-      padding: 0 8vh 0 8vh;
+      padding: 0 12vh 0 12vh;
 
       }
 
@@ -67,37 +69,46 @@ body {
   top: 0;
   right: 0;
   color: $menu_title;
-  z-index: 100;
+  z-index: 1;
   box-shadow:-3px 8px 30px #755757;
   background-color: $white;
+  overflow-x: hidden;
 
   width: 0;
-
   transition: 0.5s;
 
   h4{
     padding: 2.5rem;
   }
+
   ul {
 
-    margin-top: 3rem;
     list-style: none;
     padding: 2.5rem;
 
     li {
-        margin-bottom: 1rem;
+        margin-bottom:16px;
+
         a{
           text-decoration: none;
           font-weight: bold;
           color: $menu_title;
+          display: block;
+          transition: 0.2s;
+          white-space: nowrap;
+
+          &:hover{
+            color: #b8b8b9
+          }
+
         }
     }
   }
 
     @media screen and (max-width: $break-small) {
 
-      height: 100vh;
 
+      height: 500vh;
       &.menu-width{
         width: 50vw;
       }
@@ -112,6 +123,10 @@ body {
         width: 14vw;
     }
 
+      ul{
+        margin-top: 3rem;
+      }
+
   }
 
 }
@@ -122,10 +137,11 @@ body {
   color: white;
 
   .color-block{
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:auto auto 5fr;
+    grid-template-rows:auto auto 5fr 20px ;
+
 
 
     .undline{
@@ -136,10 +152,12 @@ body {
     p{
       color: #000;
       opacity: 0.4;
+      letter-spacing: 0.2rem;
     }
 
     h3{
       align-self: end;
+      font-weight: 900;
   }
 
     &.pink{
@@ -166,8 +184,12 @@ body {
     grid-template-columns: 50% 50%;
     grid-auto-rows: 30vh;
 
+    h2{
+      font-size: 1rem;
+    }
+
     p{
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
 
     .no-color{
@@ -183,6 +205,14 @@ body {
 
     }
 
+    .little-line{
+      grid-column: 1/2;
+      border-right: 1px solid #757575;
+      height: 20px;
+      width: 50%;
+      opacity: 0.6;
+    }
+
     .no-color-end{
       display: none;
     }
@@ -190,6 +220,7 @@ body {
     .color-block{
       .color-header{
         max-width: 30vw;
+        font-size: 1.2rem;
       }
     }
 
@@ -270,7 +301,7 @@ body {
       color: #000;
       display: grid;
 
-      h3{
+      h2{
           place-self: center;
           justify-self: start;
       }
@@ -289,6 +320,7 @@ body {
     height:8vh;
     width: 50%;
     border-right: 1px solid $small-line;
+    opacity: 0.6;
   }
 
   @media screen and (min-width: $break-large) {
@@ -299,9 +331,47 @@ body {
 
 }
 
+.line-1 {
+
+  @media screen and (max-width: $break-small) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:20px;
+    width: 50%;
+    border-right: 1px solid $small-line;
+    opacity: 0.6;
+
+  }
+
+  @media screen and (min-width: $break-large) {
+
+  }
+
+}
+
+.line-2 {
+
+  @media screen and (max-width: $break-small) {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    height:20px;
+    width: 50%;
+    border-right: 1px solid $small-line;
+    opacity: 0.6;
+
+  }
+
+  @media screen and (min-width: $break-large) {
+
+  }
+
+}
+
 
 .title1{
-
+  position: relative;
   background-color: #a687fb;
   color: $white;
   padding-top: 2rem;
@@ -311,7 +381,7 @@ body {
   
   h2{
     color: $yellow;
-    padding: 1rem;
+
   }
 
   img{
@@ -342,6 +412,7 @@ body {
     h2{
       grid-column: 1/3;
       grid-row: 1/2;
+      font-size: 1.7rem;
     }
     p{
 
@@ -351,6 +422,7 @@ body {
       justify-self:left;
       padding-right: 8vw;
       text-align: left;
+      font-size: 1.1rem;
     }
     img{
       width: 20vw;
@@ -367,9 +439,11 @@ body {
 
 .devider2{
   @media screen and (max-width: $break-small) {
+
     height:8vh;
     width: 50%;
     border-right: 1px solid $small-line;
+    opacity: 0.6;
   }
 
   @media screen and (min-width: $break-large) {
@@ -379,25 +453,33 @@ body {
   }
 }
 
-.title2{
 
-    h2{
-      padding:4vh;
+
+.title2{
+  padding-bottom: 8vh;
+  margin-bottom: 4vh;
+  padding-top: 2rem;
+  position: relative;
+
+    h2
+    {
+      padding:1vh;
       text-align: center;
+
+
     }
     h3, p{
       color: #586b73;
 
       }
-  padding-bottom: 8vh;
-  margin-bottom: 4vh;
-  margin-top: 1rem;
+
 
   @media screen and (max-width: $break-small) {
     text-align: center;
     background-color: $title2-bgd;
       h2{
         color: #293d7c;
+        font-size: 1rem;
         }
       h3{
         padding: 4vh;
@@ -426,17 +508,18 @@ body {
       position: absolute;
       top: 0;
       left: 0;
-      height:60vh;
+      height:52vh;
       width: 100%;
     }
 
     h2{
       text-align: center;
       color: $white;
+      font-size: 1.7rem;
     }
 
     .wrapper_articles{
-      padding: 0 8vh 0 8vh;
+      padding: 0 12vh 0 12vh;
       position: relative;
 
 
@@ -463,6 +546,7 @@ body {
         p{
           text-align: center;
           padding: 3vh 3vw 0 3vw;
+          font-size: 1.1rem;
 
         }
 
@@ -480,6 +564,25 @@ body {
 
 }
 
+.line-3 {
+
+  @media screen and (max-width: $break-small) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 50%;
+    border-right: 1px solid $small-line;
+    opacity: 0.6;
+
+  }
+
+  @media screen and (min-width: $break-large) {
+
+  }
+}
+
+
 .title3{
   position: relative;
 
@@ -496,6 +599,7 @@ body {
 
     color: $white;
     font-weight: bold;
+    font-size: 0.9rem;
 
   }
 
@@ -511,7 +615,7 @@ body {
     h2{
 
       text-align: center;
-      padding: 0 12vw 0 12vw;
+      padding: 3rem 12vw 0 12vw;
       margin-bottom: 3rem;
     }
 
@@ -525,6 +629,7 @@ body {
       margin-bottom: 4rem;
       text-align: center;
       border-radius: 8px;
+      font-size: 0.9rem;
     }
   }
 
@@ -533,7 +638,7 @@ body {
     flex-direction: column;
     border-top: 2px solid $line;
     margin: 0 4vw 0 4vw;
-    padding: 8vh 20vw;
+    padding: 8vh 16vw;
 
     h2{
       width: 20rem;
@@ -560,12 +665,13 @@ body {
 footer{
   background-color: $footer-color;
 
+  display: flex;
 
   p{
     color: $white;
   }
   button{
-    background-color: $yellow;
+   background-color: $yellow;
     height: 40px;
     width: 100px;
     border: 1px solid  $yellow ;
@@ -574,15 +680,20 @@ footer{
     font-weight: bold;
   }
 
-  .contact{
-    p:first-of-type{
-      padding-bottom: 20px;
-    }
-  }
+
 
 
   @media screen and (max-width: $break-small) {
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     padding: 10px;
+
+    .question{
+      padding: 2vh;
+    }
+
     .wrapper-contact-1{
       display: none;
     }
@@ -591,14 +702,69 @@ footer{
       display: none;
     }
 
+    .muture{
+      display: none;
+    }
+
+    .wrapper-contact-3{
+      align-self: center;
+
+
+      .cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+
+
+
+    textarea{
+      width: 90vw;
+      height: 150px;
+      border-radius: 8px;
+
+
+    }
+
+    .btn {
+      display: flex;
+      justify-content: flex-end;
+
+      button {
+        margin: 1.5rem 0 3rem 0;
+        font-size: 0.9rem;
+      }
+
+    }
+
+
+
+
+
   }
 
   @media screen and (min-width: $break-large) {
 
-    display: flex;
     justify-content: space-between;
 
     padding: 8vh 10vh 15vh 8vh;
+
+
+
+    .contactu{
+      display: flex;
+      justify-content: space-between;
+
+      p{
+        align-self: center;
+        padding-right: 2rem;
+      }
+
+      a{
+        padding-left: 10px;
+      }
+    }
 
     .wrapper-contact-1{
       flex-basis: auto;
@@ -616,16 +782,31 @@ footer{
     .wrapper-contact-3{
       flex-basis:200px;
       position: relative;
-     
+
+      .muture{
+        padding-bottom: 1rem;
+      }
+
+      textarea{
+        width: 18vw;
+        height: 150px;
+
+      }
 
       button{
         position: absolute;
         bottom: -50px;
         right: 0;
+        border-radius: 0;
+        font-size: 0.9rem;
       }
     }
 
     .question{
+      display: none;
+    }
+
+    .cont{
       display: none;
     }
 
